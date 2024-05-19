@@ -1,0 +1,8 @@
+avro==1.11.3
+delta-spark==3.2.0
+importlib_metadata==7.1.0
+kafka-python==2.0.2
+py4j==0.10.9.7
+pyspark==3.5.1
+zipp==3.18.2
+awscli==1.18.69
