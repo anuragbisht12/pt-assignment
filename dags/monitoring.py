@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.email_operator import EmailOperator
 from airflow.utils.dates import days_ago
-from custom_sensors import DataQualitySensor
+from data_quality.custom_sensor import DataQualitySensor
 from datetime import timedelta
 
 default_args = {
